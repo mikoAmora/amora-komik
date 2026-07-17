@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miko Amora Komik</title>
+    <style>
+        * {margin:0; padding:0; box-sizing:border-box; font-family: sans-serif;}
+        body {background: #f8f9fa; color: #333;}
+        header {background: #ff6b81; color: white; padding: 1.5rem; text-align: center;}
+        .komik-list {max-width: 1200px; margin: 2rem auto; padding: 0 1rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;}
+        .komik-card {background: white; border-radius: 8px; padding: 1rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); text-align: center;}
+        .komik-card img {width: 100%; height: 320px; object-fit: cover; border-radius: 4px; margin-bottom: 1rem;}
+        footer {text-align: center; padding: 2rem; background: #333; color: white; margin-top: 3rem;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📚 Miko Amora Komik</h1>
+        <p>Tempat baca komik favoritmu yang seru dan unik!</p>
+    </header>
+
+    <div class="komik-list">
+        <div class="komik-card">
+            <img src="https://via.placeholder.com/250x320" alt="Sampul Komik 1">
+            <h3>Judul Komik Pertama</h3>
+            <p>Deskripsi singkat cerita komikmu</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 Miko Amora Komik - Semua Cerita Punya Makna Indah</p>
+    </footer>
+</body>
+</html>
+simpan:Tambah halaman awal website
